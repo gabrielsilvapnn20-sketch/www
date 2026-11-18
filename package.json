@@ -1,0 +1,14 @@
+{
+  "name": "ig-agent",
+  "version": "0.1.0",
+  "description": "Agente de teste que navega no Instagram: assiste reels, rola o feed e curte alguns posts.",
+  "type": "module",
+  "scripts": {
+    "login": "node src/agent.js --login",
+    "start": "node src/agent.js",
+    "dry": "node src/agent.js --dry-run"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
